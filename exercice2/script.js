@@ -3,13 +3,13 @@ const select = document.querySelector('select');
 const box = document.querySelector('.box');
 
 button.addEventListener('click', () => {
-    let bread = select.value;
+    let breed = select.value;
     let url;
 
     if(bread === "") {
         url = 'https://dog.ceo/api/breeds/image/random';
     } else {
-        url = `https://dog.ceo/api/breed/${bread}/images/random`;
+        url = `https://dog.ceo/api/breed/${breed}/images/random`;
     }
 
     fetch(url)
