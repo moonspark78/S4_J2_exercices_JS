@@ -1,0 +1,7 @@
+#user{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
